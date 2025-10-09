@@ -1,12 +1,18 @@
 body {
-    background-color: rgb(209, 182, 148);
+    background-image: url(image/warm2.0.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     color: black;
 }
 #navbar {
-background-color: rgb(247, 204, 157);
+background-image: url(image/Nav.png);
+ background-position: center;
+background-attachment: fixed;
+background-size: cover;
 box-shadow: 2px;
 text-align: center;
 border-radius: 15px;
@@ -21,6 +27,8 @@ outline: outset;
     display: flex;
     justify-content: center;
     gap:20px
+    
+    
 }
 
 #navbar a {
@@ -62,7 +70,6 @@ outline: outset;
     margin-bottom: 20px;
 }
 #about, #contact {
-    background-color: white;
     border-radius: 15px;
     margin: 20px auto;   
     padding: 20px;
@@ -73,4 +80,15 @@ outline: outset;
     display: block;
     text-align: center;
     margin-top: 20px;
+}
+#contact{
+    background-image: url(image/coffe.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover; 
+    color-scheme: white
+}
+#about{
+    background-color: rgb(255, 255, 255);
 }
