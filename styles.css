@@ -10,7 +10,7 @@ body {
 }
 #navbar {
 background-image: url(image/Nav.png);
- background-position: center;
+background-position: center;
 background-attachment: fixed;
 background-size: cover;
 box-shadow: 2px;
@@ -46,8 +46,7 @@ outline: outset;
     margin:10px auto;
     border-radius: 10%;
     width: 150px;
- margin-bottom: 10px;
- margin: 0 auto;
+ margin-bottom: 10px;;
    
 }
 .menu-category {
@@ -87,8 +86,14 @@ outline: outset;
     background-attachment: fixed;
     background-position: fixed;
     background-size: cover; 
-    color-scheme: white
-}
+    color: white;
+    display: block;
+    text-align: center;
+   
+ }
 #about{
-    background-color: rgb(255, 255, 255);
-}
+    background-color: white;
+ }
+ .href{
+    color: white;
+ }
