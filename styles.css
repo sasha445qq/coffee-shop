@@ -48,6 +48,7 @@ outline: outset;
     border-radius: 10%;
     width: 150px;
  margin-bottom: 10px;;
+  transition: transform 0.3s ease;
    
 }
 .menu-category {
@@ -85,7 +86,6 @@ outline: outset;
     background-image: url(image/coffe.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-position: fixed;
     background-size: cover; 
     color: white;
     display: block;
@@ -97,4 +97,7 @@ outline: outset;
  }
  .href{
     color: white;
+ }
+ .menu-img:hover {
+    transform: scale(1.1);
  }
